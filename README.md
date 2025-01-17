@@ -52,6 +52,7 @@ sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin 
 
 ## 3. Install node.js and npm
 
+Generally, you can follow the instruction given [here](https://nodejs.org/en/download/). Be sure to choose "for Linux".
 First install the fmn package manager for node.js
 ```sh
 curl -o- https://fnm.vercel.app/install | bash
@@ -74,5 +75,5 @@ First, you have to clone the ezBIDS github repo and then use the dev.sh file to 
 git clone https://github.com/brainlife/ezbids.git
 cd ezbids && ./dev.sh -d
 ```
-Now the docker container is running in the current terminal. It will print a local address like "http://localhost:3000/ezbids/convert". Paste this into your internet browser which should open up the ezBIDS website locally. Now you can use ezBIDS locally.
+Now the docker container is running in the current terminal. It will print a local address like `http://localhost:3000/ezbids/convert`. Paste this into your internet browser which should open up the ezBIDS website locally. Now you can use ezBIDS locally.
 
